@@ -10,5 +10,9 @@ def home(name):
 def hello():
     return "hello world!"
 
+@app.route('/branch')
+def branch():
+    return "working from student branch"
+
 if __name__=="__main__":
     app.run()
